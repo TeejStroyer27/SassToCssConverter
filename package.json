@@ -1,0 +1,29 @@
+{
+  "name": "sass2css",
+  "version": "1.0.0",
+  "description": "Converts sass files to css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-watch":"node-sass --watch INPUT -o OUTPUT",
+    "scss":"node-sass INPUT -o OUTPUT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeejStroyer27/SassToCssConverter.git"
+  },
+  "keywords": [
+    "sass",
+    "css"
+  ],
+  "author": "TJ Broadus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeejStroyer27/SassToCssConverter/issues"
+  },
+  "homepage": "https://github.com/TeejStroyer27/SassToCssConverter#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "node-sass": "^4.11.0"
+  }
+}
