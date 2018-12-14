@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss-watch":"node-sass --watch INPUT -o OUTPUT",
-    "scss":"node-sass INPUT -o OUTPUT"
+    "scss-watch": "node-sass --watch INPUT -o OUTPUT",
+    "scss": "node-sass INPUT -o OUTPUT"
   },
   "repository": {
     "type": "git",
